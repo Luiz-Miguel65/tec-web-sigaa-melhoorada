@@ -7,9 +7,9 @@ O desenvolvimento deste projeto tem como base o artigo:
 **“Analyzing the Impact of Visual Elements in Website Design on User Experience and Interaction”**  
 Este estudo destaca a importância dos elementos visuais — como layout, cores e tipografia — no *user experience* (UX) e na interação do usuário com plataformas digitais. O artigo mostra que:
 
-- Elementos visuais influenciam diretamente **como os usuários percebem e interagem** com um site. :contentReference[oaicite:0]{index=0}  
-- A combinação equilibrada de fatores visuais e de usabilidade pode melhorar a legibilidade, navegabilidade e engajamento geral. :contentReference[oaicite:1]{index=1}  
-- Fatores como hierarquia visual, sequência de leitura e compatibilidade visual são essenciais para maximizar a eficiência de interfaces. :contentReference[oaicite:2]{index=2}
+- Elementos visuais influenciam diretamente **como os usuários percebem e interagem** com um site.
+- A combinação equilibrada de fatores visuais e de usabilidade pode melhorar a legibilidade, navegabilidade e engajamento geral. 
+- Fatores como hierarquia visual, sequência de leitura e compatibilidade visual são essenciais para maximizar a eficiência de interfaces. 
 
 Este projeto se inspira nesses achados para construir uma interface que seja ao mesmo tempo **usável, intuitiva e visualmente atraente** para os estudantes da UFC.
 
