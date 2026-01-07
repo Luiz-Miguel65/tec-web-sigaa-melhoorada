@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SIGAA Moderno – Turma</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <strong>UFC · SIGAA</strong>
+    <span>Engenharia de Computação · 2025.2</span>
+  </header>
+
+  <main class="layout">
+
+    <aside class="sidebar">
+      <h3>Menu da Turma</h3>
+      <ul>
+        <li class="active">Principal</li>
+        <li>Plano de Curso</li>
+        <li>Participantes</li>
+        <li>Materiais</li>
+        <li>Atividades</li>
+        <li>Fórum</li>
+      </ul>
+    </aside>
+
+    <section class="content">
+      <h2 class="section-title">Professor</h2>
+      <div class="teacher">
+        <img src="https://via.placeholder.com/56" alt="Professor" />
+        <div>
+          <strong>Thiago Iachiley Araujo de Souza</strong>
+          <small>Departamento · UFC Sobral</small>
+        </div>
+      </div>
+
+      <h2 class="section-title">Alunos</h2>
+      <div class="students">
+        <div class="student">
+          <img />
+          <div>
+            <strong>Agmy Lima Nascimento</strong>
+            <small>Engenharia de Computação</small>
+          </div>
+        </div>
+        <div class="student">
+          <img />
+          <div>
+            <strong>Ana Lara Carvalho Mesquita</strong>
+            <small>Engenharia de Computação</small>
+          </div>
+        </div>
+        <div class="student">
+          <img />
+          <div>
+            <strong>Anderson Ferreira Almeida</strong>
+            <small>Engenharia de Computação</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <aside class="rightbar">
+      <div class="box">
+        <h4>Notícias</h4>
+        <a href="#">Declaração sobre ônibus universitários</a>
+        <a href="#">Aviso de atividades</a>
+      </div>
+
+      <div class="box">
+        <h4>Atividades</h4>
+        <a href="#">Nova tarefa cadastrada</a>
+        <a href="#">Material Aula 07</a>
+      </div>
+    </aside>
+
+  </main>
+
+</body>
+</html>
