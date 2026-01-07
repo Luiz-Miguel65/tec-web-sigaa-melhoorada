@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Portal do Discente - SIGAA Moderno</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+<header class="topbar">
+  <h3> UFC - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas </h3>
+  <span>Portal do Discente</span>
+</header>
+
+<section class="profile">
+  <img src="images/avatar.png" class="avatar">
+  <div>
+    <h2>LUIZ MIGUEL RODRIGUES DE SOUZA</h2>
+    <p>Campus da UFC em Sobral / Diretoria</p>
+    <p>Semestre atual: <strong>2025.2</strong></p>
+  </div>
+
+  <div class="aviso-onibus">
+      <a href="#" class="aviso-link">
+    Declaração para manutenção dos "ônibus universitários" de cidades da região <br>
+  </a>
+    Prezados(as) discentes, como de costume, enviamos documento institucional que
+    comprova a realização de atividades letivas durante o mês de janeiro de 2026,
+    caso seja necessário sensibilizar os gestores municipais quanto à manutenção
+    dos chamados "ônibus dos universitários".
+  </div>
+  
+
+  
+</section>
+
+<div class="discente-layout">
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <section class="disciplinas">
+
+    <div class="discente-icons">
+
+  <div class="discente-icon">
+  <img src="images/icon-ensino.png" alt="Ensino">
+  <span>Ensino</span>
+</div>
+
+<div class="discente-icon">
+  <img src="images/icon-extensao.png" alt="Extensão">
+  <span>Extensão</span>
+</div>
+
+<div class="discente-icon">
+  <img src="images/icon-bolsas.png" alt="Auxílios e Bolsas">
+  <span>Auxílios e Bolsas</span>
+</div>
+
+
+  <div class="discente-icon">
+    <img src="images/icon-virtual.png" alt="Ambientes Virtuais">
+    <span>Ambientes Virtuais</span>
+  </div>
+
+  <div class="discente-icon">
+    <img src="images/icon-estagio.png" alt="Estágios">
+    <span>Estágios</span>
+  </div>
+
+  <div class="discente-icon">
+    <img src="images/icon-agendamento.png" alt="Agendamentos">
+    <span>Agendamentos</span>
+  </div>
+
+  <div class="discente-icon">
+    <img src="images/icon-restaurante.png" alt="Restaurante Universitário">
+    <span>Restaurante Universitário</span>
+  </div>
+
+  <div class="discente-icon">
+    <img src="images/icon-internacional.png" alt="Internacional">
+    <span>Internacional</span>
+  </div>
+
+  <div class="discente-icon">
+    <img src="images/icon-outros.png" alt="Outros">
+    <span>Outros</span>
+  </div>
+
+</div>
+
+    <section class="disciplinas">
+  <h2>Turmas do Semestre</h2>
+
+  <table>
+    <tr>
+      <th>Disciplina</th>
+      <th>Horário</th>
+    </tr>
+
+    <tr>
+      <td>
+        <button class="disciplina-btn">Cálculo Vetorial</button>
+      </td>
+      <td>TER / QUI 13:30–15:30</td>
+    </tr>
+
+    <tr>
+      <td>
+        <button class="disciplina-btn">Física Geral II</button>
+      </td>
+      <td>QUI 10:00–12:00</td>
+    </tr>
+
+    <tr>
+      <td>
+        <button class="disciplina-btn">Fisica Experimental I</button>
+      </td>
+      <td>SEG 15:30-17:30</td>
+    </tr>
+
+    <tr>
+      <td>
+        <button class="disciplina-btn">Paradigmas de Programação</button>
+      </td>
+      <td>SEG / QUA 10:00–12:00</td>
+    </tr>
+
+    <tr>
+      <td>
+        <button class="disciplina-btn" onclick="irParaTecWeb()">
+  Tecnologias Web
+</button>
+      </td>
+      <td>TER / QUI 08:00–10:00</td>
+    </tr>
+  </table>
+</section>
+
+<div class="atividades">
+
+  <div class="atividade">
+    <div class="atividade-info">
+      <strong>Paradigmas de Programação</strong>
+      <span>Lista 1 – Programação Funcional</span>
+    </div>
+    <div class="atividade-meta">
+      <span class="data">Entrega: 20/03</span>
+      <span class="status pendente">Pendente</span>
+    </div>
+  </div>
+
+  <div class="atividade">
+    <div class="atividade-info">
+      <strong>Cálculo Vetorial</strong>
+      <span>Trabalho – Campo Vetorial</span>
+    </div>
+    <div class="atividade-meta">
+      <span class="data">Entrega: 18/03</span>
+      <span class="status entregue">Entregue</span>
+    </div>
+  </div>
+
+  <div class="atividade">
+    <div class="atividade-info">
+      <strong>Tecnologias Web</strong>
+      <span>Atividade – HTML & CSS</span>
+    </div>
+    <div class="atividade-meta">
+      <span class="data">Entrega: 25/03</span>
+      <span class="status atrasado">Atrasado</span>
+    </div>
+  </div>
+
+</div>
+
+  </section>
+
+  <!-- SIDEBAR -->
+  <aside class="perfil">
+    <img src="images/avatar.png" class="profile-pic">
+    <h3>Luiz Miguel</h3>
+    <p>Engenharia da Computação</p>
+    <p>Status: Ativo</p>
+    <hr class="perfil-separator">
+
+<div class="dados-institucionais">
+  <h4>Dados Institucionais</h4>
+
+  <p><strong>Matrícula:</strong> 565930</p>
+  <p><strong>Curso:</strong> Engenharia de Computação - MT</p>
+  <p><strong>Nível:</strong> Graduação</p>
+  <p><strong>Status:</strong> Ativo</p>
+  <p><strong>E-mail:</strong> luizmiguel6548@gmai...</p>
+  <p><strong>Entrada:</strong> 2024.1</p>
+
+  <div class="integralizacoes">
+    <h5>Integralizações</h5>
+    <p>
+      <strong>CH Total Exigida do Currículo:</strong><br>
+      3648h
+    </p>
+  </div>
+</div>  
+ <div class="discente-icons biblioteca-section">
+
+  <div class="discente-icon">
+    <img src="images/icon-biblioteca.png" alt="Biblioteca">
+    <span>Biblioteca</span>
+  </div>
+
+</div>
+
+  </aside>
+
+</div>
+
+
+<footer class="sigaa-footer">
+  <div class="sigaa-line"></div>
+  <p>
+    SIGAA | Copyright © 2010-2026 -
+    Superintendência de Tecnologia da Informação - UFC -
+    (85) 3366-9999 - si3asprd02.ufc.br
+  </p>
+</footer>
+
+</body>
+</html>
